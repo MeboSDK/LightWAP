@@ -4,9 +4,9 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using LightWAP.Data;
-using LightWAP.Data.Repository.Interfaces;
 using System.Linq;
 using LightWAP.Core.Domain;
+using LightWAP.Services;
 
 namespace LightWAP.Data.Repository
 {

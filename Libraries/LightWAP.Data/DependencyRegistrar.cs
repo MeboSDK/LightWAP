@@ -1,10 +1,6 @@
 ﻿using LightWAP.Core.Infrastructure.DependencyManagment;
-using LightWAP.Core.Infrastructure.Interfaces;
-using LightWAP.Data.Repository.Interfaces;
+using LightWAP.Services;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace LightWAP.Data.Repository
 {

@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LightWAP.Core\LightWAP.Core.csproj" />
+    <ProjectReference Include="..\LightWAP.Service\LightWAP.Services.csproj" />
   </ItemGroup>
 
 </Project>

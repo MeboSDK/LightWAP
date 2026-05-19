@@ -5,15 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LightWAP.Core\LightWAP.Core.csproj" />
-    <ProjectReference Include="..\LightWAP.Data\LightWAP.Data.csproj" />
+    <Compile Remove="Catalog\**" />
+    <EmbeddedResource Remove="Catalog\**" />
+    <None Remove="Catalog\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Catalog\Category\" />
-    <Folder Include="Catalog\Interfaces\" />
-    <Folder Include="Catalog\Picture\" />
-    <Folder Include="Catalog\Product\" />
+    <ProjectReference Include="..\LightWAP.Core\LightWAP.Core.csproj" />
   </ItemGroup>
 
 </Project>

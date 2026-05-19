@@ -7,7 +7,6 @@ namespace LightWAP.Core.Domain.Picture
 {
     public class Picture : BaseEntity
     {
-        public int Id { get; set; }
         public string FileLocation { get; set; }
         public string FileName { get; set; }
         public List<ProductPictureMapping> ProductPictureMappings { get; set; }

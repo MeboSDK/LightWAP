@@ -4,7 +4,6 @@ using System.Text;
 using LightWAP.Core.Domain.Language;
 using LightWAP.Services.Localization.Interfaces;
 using System.Threading.Tasks;
-using LightWAP.Data.Repository.Interfaces;
 
 namespace LightWAP.Services.Localization
 {

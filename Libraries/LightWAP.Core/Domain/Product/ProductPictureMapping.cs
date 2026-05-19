@@ -6,7 +6,6 @@ namespace LightWAP.Core.Domain.Product
 {
     public class ProductPictureMapping : BaseEntity
     {
-        public int Id { get; set; }
         public int? ProductId { get; set; }
         public int? PictureId { get; set; }
         public int DisplayOrder{ get; set; }

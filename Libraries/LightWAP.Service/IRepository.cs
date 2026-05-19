@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LightWAP.Data.Repository.Interfaces
+namespace LightWAP.Services
 {
     public interface IRepository<TEntity> where TEntity : BaseEntity
     {

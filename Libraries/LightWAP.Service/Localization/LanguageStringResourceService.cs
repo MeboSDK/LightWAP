@@ -1,6 +1,5 @@
 ﻿using LightWAP.Core.Domain.Language;
 using LightWAP.Core.Extensions;
-using LightWAP.Data.Repository.Interfaces;
 using LightWAP.Services.Localization.Interfaces;
 using System;
 using System.Collections.Generic;
